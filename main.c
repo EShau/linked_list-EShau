@@ -4,7 +4,7 @@
 
 int main(){
   printf("Generating empty list:\n");
-  struct node * test_list = make_list();
+  struct node * test_list = NULL;
   print_list(test_list);
   printf("Here's the pointer to the beginning of the list: %p\n", test_list);
   printf("Adding the numbers 10 to 1 into the list:\n");

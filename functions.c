@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include "functions.h"
 
-struct node * make_list(){
-  struct node * n1 = malloc(sizeof(struct node));
-  n1 = NULL;
-  return n1;
-}
-
 //Should take a pointer to a node struct and print out all of the data in the list
 void print_list(struct node *n){
   printf("%s", "[ ");
